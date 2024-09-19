@@ -9,43 +9,44 @@
 <body>
 
 <div id="calculator">
-    <div id="display">0</div> <!-- Start with 0 as the default value -->
+    <div id="display">0</div>
 
     <div class="button-row">
         <button class="button" data-number="7">7</button>
         <button class="button" data-number="8">8</button>
         <button class="button" data-number="9">9</button>
-        <button class="button">/</button>
+        <button class="button operator">/</button>
     </div>
-
+    
     <div class="button-row">
         <button class="button" data-number="4">4</button>
         <button class="button" data-number="5">5</button>
         <button class="button" data-number="6">6</button>
-        <button class="button">*</button>
+        <button class="button operator">*</button>
     </div>
-
+    
     <div class="button-row">
         <button class="button" data-number="1">1</button>
         <button class="button" data-number="2">2</button>
         <button class="button" data-number="3">3</button>
-        <button class="button">-</button>
+        <button class="button operator">-</button>
     </div>
-
+    
     <div class="button-row">
         <button class="button" data-number="0">0</button>
-        <button class="button">.</button>
+        <button id="decimal" class="button">.</button>
         <button id="equals" class="button">=</button>
-        <button class="button">+</button>
-    </div>
+        <button class="button operator">+</button>
+    </div> 
 
     <div class="button-row">
+        <button id="backspace" class="button">←</button>
         <button id="clear" class="button" style="width: 100%;">Clear</button>
     </div>
 </div>
 
-<!-- Link to external JavaScript file -->
 <script src="script.js"></script>
 
 </body>
 </html>
+
