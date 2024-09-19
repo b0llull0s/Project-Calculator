@@ -4,49 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calculator</title>
-    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div id="calculator">
-    <!-- Display with dummy numbers -->
-    <div id="display">12345</div>
+    <div id="display">0</div> <!-- Start with 0 as the default value -->
 
-    <!-- Digits and operator buttons -->
     <div class="button-row">
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
+        <button class="button" data-number="7">7</button>
+        <button class="button" data-number="8">8</button>
+        <button class="button" data-number="9">9</button>
         <button class="button">/</button>
     </div>
 
     <div class="button-row">
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
+        <button class="button" data-number="4">4</button>
+        <button class="button" data-number="5">5</button>
+        <button class="button" data-number="6">6</button>
         <button class="button">*</button>
     </div>
 
     <div class="button-row">
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
+        <button class="button" data-number="1">1</button>
+        <button class="button" data-number="2">2</button>
+        <button class="button" data-number="3">3</button>
         <button class="button">-</button>
     </div>
 
     <div class="button-row">
-        <button class="button">0</button>
+        <button class="button" data-number="0">0</button>
         <button class="button">.</button>
         <button id="equals" class="button">=</button>
         <button class="button">+</button>
     </div>
 
-    <!-- Clear button -->
     <div class="button-row">
         <button id="clear" class="button" style="width: 100%;">Clear</button>
     </div>
 </div>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
 
 </body>
 </html>
