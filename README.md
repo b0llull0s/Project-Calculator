@@ -17,7 +17,7 @@
 
 ## Demo
 
-![Demo](https://b0llull0s.github.io/Project-Calculator/)
+Try it ![here](https://b0llull0s.github.io/Project-Calculator/)
 
 ## How to Use
 
