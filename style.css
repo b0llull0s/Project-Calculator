@@ -1,0 +1,58 @@
+/* External CSS for calculator */
+
+/* General styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #663210;
+    margin: 0;
+}
+
+/* Calculator container */
+#calculator {
+    border: 2px solid #ffae00;
+    padding: 20px;
+    background-color: #6a00ff;
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* Display styles */
+#display {
+    background-color: #222222;
+    color: #f9cb3f;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Row layout */
+.button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Special buttons */
+#clear {
+    background-color: #ff0000;
+    color: black;
+}
+
+#equals {
+    background-color: #00ff08;
+    color: #9000ff;
+}

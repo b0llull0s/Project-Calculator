@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Test</title>
+</head>
+<body>
+    <h2>Calculator Test</h2>
+    <p>Open your browser console to test the operations below:</p>
+
+    <script>
+        // Step 2: Variables for the calculator operation
+        let num1 = 3;         // First number
+        let operator = "+";    // Operator
+        let num2 = 5;         // Second number
+
+        // Addition function
+        function add(a, b) {
+            return a + b;
+        }
+
+        // Subtraction function
+        function subtract(a, b) {
+            return a - b;
+        }
+
+        // Multiplication function
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        // Division function
+        function divide(a, b) {
+            if (b === 0) {
+                return "Error: Cannot divide by zero!";
+            }
+            return a / b;
+        }
+
+        // Step 3: Create the 'operate' function
+        function operate(operator, a, b) {
+            switch (operator) {
+                case '+':
+                    return add(a, b);
+                case '-':
+                    return subtract(a, b);
+                case '*':
+                    return multiply(a, b);
+                case '/':
+                    return divide(a, b);
+                default:
+                    return "Invalid operator!";
+            }
+        }
+
+        // Testing the 'operate' function with the variables
+        let result = operate(operator, num1, num2);
+        console.log("Operation result: " + result);  // Should output 3 + 5 = 8
+    </script>
+</body>
+</html>
