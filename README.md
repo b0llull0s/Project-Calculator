@@ -17,7 +17,7 @@
 
 ## Demo
 
-Try it ![here](https://b0llull0s.github.io/Project-Calculator/)
+Check out the live version of the project: [Demo Link](https://b0llull0s.github.io/Project-Calculator/)
 
 ## How to Use
 
